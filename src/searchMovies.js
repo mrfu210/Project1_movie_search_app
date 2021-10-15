@@ -10,7 +10,6 @@ export default function SearchMovies(){
 
     const searchMovies = async (e) => {
         e.preventDefault()
-        console.log('submitting');
 
         const url = `https://api.themoviedb.org/3/search/movie?api_key=9685e86a9ea893fe0f5c4d54871f582f&language=en-US&query=${query}&include_adult=false`;
         try{
